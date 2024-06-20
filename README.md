@@ -147,3 +147,6 @@ $ ./Transformer -x ./binary_container_1.xclbin
    ```
    应该是 `group_id()` 使用错误，指定单 bank 时可运行。
    ![fig.18 buf_alloc](./img/buf_alloc.png)
+
+3. vitis 或 vitis_hls GUI 界面无法打开
+   > 删除 `~/.Xilinx/vitis/2022.2/` 文件夹和 `~/.Xilinx/vitis_hls/2022.2/` 文件夹
