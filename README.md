@@ -78,6 +78,7 @@ XCLMGMT              : 2.14.384, 090bb050d570d2b668477c3bd0f979dc3a34b9db
    - 如上图，在 Transformer_system_hw_link 目录创建 `setting.cfg`。
    - 编写 kernel 端口映射规则`[connecticity]`，vivado 配置参数 `[vivado]`。具体规则见 [UG1393](https://docs.amd.com/r/2022.2-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87/ug1393-vitis-application-acceleration/v-%E5%91%BD%E4%BB%A4)。
     ![fig.10 setting_cfg](./img/cfg.png)
+   > [vivado] 选项指定 vivado 运行配置，这里设置了 implementation 策略。
 
 3. 设置硬件实现配置
   
